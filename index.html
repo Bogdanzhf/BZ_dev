@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#06060a" />
+  <title>BZ_dev — Богдан Жадан, Python Backend Developer</title>
+  <meta name="description" content="Богдан Жадан — Python backend-разработчик: FastAPI, Sanic, PostgreSQL, MS SQL, MongoDB, Redis, Docker, ML-сервисы. Разработка на заказ и открыт к предложениям." />
+  <meta property="og:title" content="BZ_dev — Python Backend Developer" />
+  <meta property="og:description" content="Backend, базы данных и ML-сервисы на Python. Опыт, проекты и стек." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%2306060a'/><text x='50' y='66' font-size='44' font-family='Arial Black,Arial' font-weight='900' text-anchor='middle' fill='%234f8cff'>BZ</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="base.css?v=2" />
+  <link rel="stylesheet" href="theme.css?v=2" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="blob blob--1"></div>
+    <div class="blob blob--2"></div>
+    <div class="blob blob--3"></div>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="spotlight" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="nav__logo">BZ<span>.dev</span></a>
+    <nav class="nav__links">
+      <a href="#about">Обо мне</a>
+      <a href="#services">Услуги</a>
+      <a href="#experience">Опыт</a>
+      <a href="#stack">Стек</a>
+    </nav>
+    <a href="https://t.me/Bogdanzhd" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Связаться</a>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__text">
+        <p class="eyebrow"><span class="dot"></span> Открыт к проектам и предложениям</p>
+
+        <h1 class="mirror">
+          <span class="chrome">БОГДАН<br />ЖАДАН</span>
+          <span class="mirror__reflection chrome" aria-hidden="true">БОГДАН<br />ЖАДАН</span>
+        </h1>
+
+        <p class="hero__role">
+          Python Backend Developer <i>/</i> Databases <i>/</i> ML
+        </p>
+
+        <div class="status">
+          <span>сейчас: <b>АО ТРИЦ</b></span>
+          <span>опыт: <b>3 года</b></span>
+          <span>Тюмень · <b>удалённо</b></span>
+        </div>
+
+        <div class="terminal">
+          <div class="terminal__bar"><span></span><span></span><span></span><em>python3</em></div>
+          <pre><code><span class="c-prompt">&gt;&gt;&gt;</span> <span id="typed"></span><span class="caret">▍</span></code></pre>
+        </div>
+
+        <div class="hero__cta">
+          <a href="https://t.me/Bogdanzhd" target="_blank" rel="noopener" class="btn btn--chrome">
+            Обсудить проект
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M9.8 15.6 9.4 20c.6 0 .8-.2 1.1-.5l2.7-2.6 5.6 4.1c1 .6 1.8.3 2-1l3.7-17.2c.3-1.5-.6-2.1-1.6-1.7L1.3 9.5c-1.5.6-1.4 1.4-.3 1.8l5.6 1.7L19.6 4.9c.6-.4 1.2-.2.7.3"/></svg>
+          </a>
+          <a href="https://github.com/Bogdanzhf?tab=repositories" target="_blank" rel="noopener" class="btn btn--ghost">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="holo" data-tilt>
+          <div class="holo__code" aria-hidden="true">
+            <div class="holo__file">bogdan.py</div>
+<pre><span class="c-kw">class</span> <span class="c-cls">Bogdan</span>(<span class="c-cls">Developer</span>):
+    role = <span class="c-str">"Backend · ML"</span>
+    city = <span class="c-str">"Тюмень"</span>
+    stack = [
+        <span class="c-str">"Python"</span>, <span class="c-str">"FastAPI"</span>,
+        <span class="c-str">"PostgreSQL"</span>, <span class="c-str">"Redis"</span>,
+        <span class="c-str">"Docker"</span>, <span class="c-str">"PyTorch"</span>,
+    ]
+
+    <span class="c-kw">async def</span> <span class="c-fn">ship</span>(self, task):
+        code = <span class="c-kw">await</span> self.build(task)
+        <span class="c-kw">return</span> code.deploy()
+
+<span class="c-com"># открыт к новым задачам</span>
+<span class="c-kw">assert</span> Bogdan().available</pre>
+          </div>
+          <div class="holo__sheen"></div>
+          <div class="holo__meta">
+            <span>// Тюмень, RU</span>
+            <span>backend · data · ml</span>
+          </div>
+        </div>
+        <div class="orbit" aria-hidden="true">
+          <span class="chip chip--a">FastAPI</span>
+          <span class="chip chip--b">PostgreSQL</span>
+          <span class="chip chip--c">PyTorch</span>
+          <span class="chip chip--d">Docker</span>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Листать вниз"><span></span></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <section class="marquee" aria-label="Технологии">
+      <div class="marquee__row">
+        <div class="marquee__track">
+          <span>Python</span><b>✦</b><span>FastAPI</span><b>✦</b><span>Sanic</span><b>✦</b><span>aiohttp</span><b>✦</b><span>PostgreSQL</span><b>✦</b><span>MS SQL</span><b>✦</b><span>MongoDB</span><b>✦</b><span>Redis</span><b>✦</b><span>Docker</span><b>✦</b><span>GitLab CI/CD</span><b>✦</b>
+          <span>Python</span><b>✦</b><span>FastAPI</span><b>✦</b><span>Sanic</span><b>✦</b><span>aiohttp</span><b>✦</b><span>PostgreSQL</span><b>✦</b><span>MS SQL</span><b>✦</b><span>MongoDB</span><b>✦</b><span>Redis</span><b>✦</b><span>Docker</span><b>✦</b><span>GitLab CI/CD</span><b>✦</b>
+        </div>
+      </div>
+      <div class="marquee__row marquee__row--reverse">
+        <div class="marquee__track">
+          <span>Pandas</span><b>◆</b><span>NumPy</span><b>◆</b><span>Scikit-learn</span><b>◆</b><span>TensorFlow</span><b>◆</b><span>PyTorch</span><b>◆</b><span>NLTK</span><b>◆</b><span>Celery</span><b>◆</b><span>RabbitMQ</span><b>◆</b><span>Grafana</span><b>◆</b><span>Jenkins</span><b>◆</b>
+          <span>Pandas</span><b>◆</b><span>NumPy</span><b>◆</b><span>Scikit-learn</span><b>◆</b><span>TensorFlow</span><b>◆</b><span>PyTorch</span><b>◆</b><span>NLTK</span><b>◆</b><span>Celery</span><b>◆</b><span>RabbitMQ</span><b>◆</b><span>Grafana</span><b>◆</b><span>Jenkins</span><b>◆</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="section__head reveal">
+        <span class="index">01</span>
+        <h2>Обо мне</h2>
+      </div>
+
+      <div class="about__grid">
+        <p class="about__lead reveal">
+          Пишу backend на&nbsp;Python, проектирую базы данных и&nbsp;собираю ML-сервисы.
+          Работал с&nbsp;платёжными интеграциями, ботами и&nbsp;системами учёта запасов —
+          <span class="hl">от схемы БД до деплоя в&nbsp;Docker</span>.
+        </p>
+
+        <div class="stats">
+          <div class="stat glass reveal">
+            <strong data-count="3">0</strong><span class="stat__unit">года</span>
+            <p>коммерческой разработки</p>
+          </div>
+          <div class="stat glass reveal">
+            <strong data-count="45" data-prefix="+">0</strong><span class="stat__unit">%</span>
+            <p>к скорости обработки заказов</p>
+          </div>
+          <div class="stat glass reveal">
+            <strong data-count="40" data-prefix="−">0</strong><span class="stat__unit">%</span>
+            <p>времени на деплой</p>
+          </div>
+          <div class="stat glass reveal">
+            <strong data-count="25" data-suffix="+">0</strong><span class="stat__unit">tech</span>
+            <p>в рабочем стеке</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="services">
+      <div class="section__head reveal">
+        <span class="index">02</span>
+        <h2>Что могу сделать</h2>
+      </div>
+
+      <p class="services__intro reveal">
+        Разработка «под ключ» или усиление вашей команды: от проектирования БД до деплоя в Docker с CI/CD.
+      </p>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon">API</div>
+          <h3>Backend и API</h3>
+          <p>Асинхронные сервисы на FastAPI, Sanic, aiohttp. Валидация, OAuth2, Swagger-документация.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">DB</div>
+          <h3>Базы данных</h3>
+          <p>Проектирование схем PostgreSQL / MS SQL, функции, миграции, оптимизация, MongoDB и Redis.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">ML</div>
+          <h3>ML и анализ данных</h3>
+          <p>Прогнозные модели, обработка данных, фоновое переобучение через Celery + Redis.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card__icon">⚙</div>
+          <h3>Боты и интеграции</h3>
+          <p>Telegram/MAX-боты, интеграции с внешними сервисами (Slack, GitHub, платёжные API).</p>
+        </article>
+        <article class="card card--wide reveal">
+          <div class="card__icon">CI</div>
+          <h3>DevOps-обвязка</h3>
+          <p>Docker Compose, Nginx с TLS, GitLab CI/CD и Jenkins — чтобы проект разворачивался одной командой.</p>
+          <div class="tags"><span>Docker</span><span>Nginx</span><span>GitLab CI</span><span>Jenkins</span><span>Grafana</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section process">
+      <div class="section__head reveal">
+        <span class="index">03</span>
+        <h2>Как работаю</h2>
+      </div>
+      <ol class="steps">
+        <li class="step reveal"><span>01</span><h3>Бриф</h3><p>Разбираемся в задаче, ограничениях и ожидаемом результате.</p></li>
+        <li class="step reveal"><span>02</span><h3>Оценка и план</h3><p>Архитектура, этапы, сроки и стоимость — фиксируем до старта.</p></li>
+        <li class="step reveal"><span>03</span><h3>Разработка</h3><p>Итерации с демо, код в вашем репозитории, тесты и документация API.</p></li>
+        <li class="step reveal"><span>04</span><h3>Деплой и поддержка</h3><p>Docker, CI/CD, передача проекта и сопровождение после запуска.</p></li>
+      </ol>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section experience" id="experience">
+      <div class="section__head reveal">
+        <span class="index">04</span>
+        <h2>git log --career</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="commit reveal">
+          <div class="commit__hash">a7f3c21 <em>HEAD → main</em></div>
+          <div class="commit__body glass">
+            <header>
+              <h3>Backend developer · АО ТРИЦ</h3>
+              <time>Июль 2026 — сейчас · Тюмень</time>
+            </header>
+            <p>Sanic-сервер: валидация типов входящих запросов. Бот MAX на MongoDB: история запросов для администратора, лимит последних записей, rate-limiting с прогрессивным таймаутом. Клиентский пакет интеграции с НСПК/УПК.</p>
+            <div class="tags"><span>Python</span><span>Sanic</span><span>MongoDB</span><span>Redis</span><span>MSSQL</span><span>Docker Compose</span></div>
+          </div>
+        </article>
+
+        <article class="commit reveal">
+          <div class="commit__hash">4e9b0d8</div>
+          <div class="commit__body glass">
+            <header>
+              <h3>Database developer · Maxim Technology</h3>
+              <time>Октябрь 2025 — Январь 2026 · удалённо</time>
+            </header>
+            <p>Проектирование структур БД и функций с модульным тестированием (ANT, tSQLt). Схемы взаимодействия сервисов и БД, репликация и развёртывание через DBAgent и pgCodeKeeper.</p>
+            <div class="tags"><span>PostgreSQL</span><span>MS SQL Server</span><span>pgCodeKeeper</span><span>DBeaver</span></div>
+          </div>
+        </article>
+
+        <article class="commit reveal">
+          <div class="commit__hash">1c02e5f <em>init</em></div>
+          <div class="commit__body glass">
+            <header>
+              <h3>Backend developer · Resourse</h3>
+              <time>Октябрь 2023 — Октябрь 2025 · Тюмень</time>
+            </header>
+            <p>Backend-система управления запасами: асинхронный CRUD и модуль аналитики <b>(+45% к скорости обработки заказов)</b>. Миграции, контейнеризация, обратный прокси с TLS <b>(−40% к времени деплоя)</b>.</p>
+            <div class="tags"><span>FastAPI</span><span>PostgreSQL</span><span>SQLAlchemy</span><span>Alembic</span><span>Docker</span><span>Nginx</span></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="projects">
+        <article class="project glass reveal">
+          <span class="project__label">project</span>
+          <h3>Веб-приложение для управления проектами</h3>
+          <p>Интеграции со Slack и GitHub, аутентификация OAuth2, документация API, CI/CD на Docker + Jenkins, интерфейс на Bootstrap 5.</p>
+          <div class="tags"><span>FastAPI</span><span>OAuth2</span><span>Jenkins</span><span>Jinja2</span></div>
+        </article>
+        <article class="project glass reveal">
+          <span class="project__label">ml-service</span>
+          <h3>Прогнозирование клиентских покупок</h3>
+          <p>Асинхронный ML-сервис: обработка данных, обучение моделей, фоновое переобучение через Celery и Redis.</p>
+          <div class="tags"><span>TensorFlow</span><span>Scikit-learn</span><span>Celery</span><span>Redis</span></div>
+        </article>
+      </div>
+
+      <div class="edu reveal">
+        <div><b>ТюмГУ + Нетология</b><span>Информационные системы и технологии · специалист по ИИ · 2028</span></div>
+        <div><b>Esoft</b><span>Школа программирования · 2025</span></div>
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section" id="stack">
+      <div class="section__head reveal">
+        <span class="index">05</span>
+        <h2>Стек</h2>
+      </div>
+      <div class="skills">
+        <div class="skill glass reveal"><h3>Языки</h3><div class="tags"><span>Python</span><span>SQL</span></div></div>
+        <div class="skill glass reveal"><h3>Фреймворки</h3><div class="tags"><span>FastAPI</span><span>Sanic</span><span>aiohttp</span><span>asyncio</span><span>Pydantic</span><span>SQLAlchemy</span></div></div>
+        <div class="skill glass reveal"><h3>Базы данных</h3><div class="tags"><span>PostgreSQL</span><span>MS SQL Server</span><span>MongoDB</span><span>Redis</span></div></div>
+        <div class="skill glass reveal"><h3>Работа с БД</h3><div class="tags"><span>pgCodeKeeper</span><span>DBeaver</span><span>PgAdmin</span><span>Alembic</span><span>tSQLt</span></div></div>
+        <div class="skill glass reveal"><h3>ML и данные</h3><div class="tags"><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>TensorFlow</span><span>PyTorch</span><span>NLTK</span></div></div>
+        <div class="skill glass reveal"><h3>DevOps</h3><div class="tags"><span>Docker Compose</span><span>GitLab CI/CD</span><span>Jenkins</span><span>Nginx</span><span>git</span></div></div>
+        <div class="skill glass reveal"><h3>Очереди и мониторинг</h3><div class="tags"><span>RabbitMQ</span><span>Celery</span><span>Grafana</span></div></div>
+        <div class="skill glass reveal"><h3>Процессы и API</h3><div class="tags"><span>Swagger</span><span>Postman</span><span>Confluence</span><span>YouTrack</span></div></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <p class="eyebrow reveal">Есть проект или вакансия?</p>
+      <h2 class="mirror mirror--big reveal">
+        <a href="https://t.me/Bogdanzhd" target="_blank" rel="noopener" class="chrome">Обсудим?</a>
+        <span class="mirror__reflection chrome" aria-hidden="true">Обсудим?</span>
+      </h2>
+      <div class="contact__links reveal">
+        <a href="https://t.me/Bogdanzhd" target="_blank" rel="noopener">Telegram — @Bogdanzhd</a>
+        <a href="https://github.com/Bogdanzhf?tab=repositories" target="_blank" rel="noopener">GitHub — Bogdanzhf</a>      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2026 Богдан Жадан · BZ_dev</span>
+    <span class="mono">ship it 🚀</span>
+  </footer>
+
+  <script>
+    window.TERMINAL_LINES = [
+      '<span class="c-kw">await</span> bogdan.build(<span class="c-str">"FastAPI backend"</span>, <span class="c-kw">docker</span>=True)',
+      'bogdan.design_db(<span class="c-str">"PostgreSQL"</span>, <span class="c-kw">migrations</span>=<span class="c-str">"alembic"</span>)',
+      'bogdan.integrate(<span class="c-str">"payments API"</span>)',
+      'bogdan.train(<span class="c-str">"ML-модель"</span>, <span class="c-kw">retrain</span>=<span class="c-str">"celery"</span>)',
+      'bogdan.deploy(<span class="c-str">"docker compose up -d"</span>)',
+    ];
+  </script>
+  <script src="script.js?v=2"></script>
+</body>
+</html>
