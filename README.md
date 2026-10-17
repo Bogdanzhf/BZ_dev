@@ -5,7 +5,7 @@
 
 **Сайт:** https://bogdanzhf.github.io/BZ_dev/
 
-**Связь:** [Telegram @Bogdanzhd](https://t.me/Bogdanzhd) · [GitHub](https://github.com/Bogdanzhf)
+**Связь:** [Telegram @Bogdanzhd](https://t.me/Bogdanzhd)
 
 ## Структура
 

@@ -13,8 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="base.css?v=3" />
-  <link rel="stylesheet" href="theme.css?v=3" />
+  <link rel="stylesheet" href="base.css?v=4" />
+  <link rel="stylesheet" href="theme.css?v=4" />
 </head>
 <body>
   <div class="bg" aria-hidden="true">
@@ -52,8 +52,7 @@
         </p>
 
         <div class="status">
-          <span>сейчас: <b>АО ТРИЦ</b></span>
-          <span>опыт: <b>3 года</b></span>
+          <span>опыт: <b>4 года</b></span>
           <span>Тюмень · <b>удалённо</b></span>
         </div>
 
@@ -66,10 +65,6 @@
           <a href="https://t.me/Bogdanzhd" target="_blank" rel="noopener" class="btn btn--chrome">
             Обсудить проект
             <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M9.8 15.6 9.4 20c.6 0 .8-.2 1.1-.5l2.7-2.6 5.6 4.1c1 .6 1.8.3 2-1l3.7-17.2c.3-1.5-.6-2.1-1.6-1.7L1.3 9.5c-1.5.6-1.4 1.4-.3 1.8l5.6 1.7L19.6 4.9c.6-.4 1.2-.2.7.3"/></svg>
-          </a>
-          <a href="https://github.com/Bogdanzhf?tab=repositories" target="_blank" rel="noopener" class="btn btn--ghost">
-            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z"/></svg>
-            GitHub
           </a>
         </div>
       </div>
@@ -143,7 +138,7 @@
 
         <div class="stats">
           <div class="stat glass reveal">
-            <strong data-count="3">0</strong><span class="stat__unit">года</span>
+            <strong data-count="4">0</strong><span class="stat__unit">года</span>
             <p>коммерческой разработки</p>
           </div>
           <div class="stat glass reveal">
@@ -226,11 +221,11 @@
 
       <div class="timeline">
         <article class="commit reveal">
-          <div class="commit__hash">a7f3c21 <em>HEAD → main</em></div>
+          <div class="commit__hash">a7f3c21</div>
           <div class="commit__body glass">
             <header>
               <h3>Backend developer · АО ТРИЦ</h3>
-              <time>Июль 2026 — сейчас · Тюмень</time>
+              <span class="commit__place">Тюмень</span>
             </header>
             <p>Sanic-сервер: валидация типов входящих запросов. Бот MAX на MongoDB: история запросов для администратора, лимит последних записей, rate-limiting с прогрессивным таймаутом. Клиентский пакет интеграции с НСПК/УПК.</p>
             <div class="tags"><span>Python</span><span>Sanic</span><span>MongoDB</span><span>Redis</span><span>MSSQL</span><span>Docker Compose</span></div>
@@ -242,7 +237,7 @@
           <div class="commit__body glass">
             <header>
               <h3>Database developer · Maxim Technology</h3>
-              <time>Октябрь 2025 — Январь 2026 · удалённо</time>
+              <span class="commit__place">удалённо</span>
             </header>
             <p>Проектирование структур БД и функций с модульным тестированием (ANT, tSQLt). Схемы взаимодействия сервисов и БД, репликация и развёртывание через DBAgent и pgCodeKeeper.</p>
             <div class="tags"><span>PostgreSQL</span><span>MS SQL Server</span><span>pgCodeKeeper</span><span>DBeaver</span></div>
@@ -250,11 +245,11 @@
         </article>
 
         <article class="commit reveal">
-          <div class="commit__hash">1c02e5f <em>init</em></div>
+          <div class="commit__hash">1c02e5f</div>
           <div class="commit__body glass">
             <header>
               <h3>Backend developer · Resourse</h3>
-              <time>Октябрь 2023 — Октябрь 2025 · Тюмень</time>
+              <span class="commit__place">Тюмень</span>
             </header>
             <p>Backend-система управления запасами: асинхронный CRUD и модуль аналитики <b>(+45% к скорости обработки заказов)</b>. Миграции, контейнеризация, обратный прокси с TLS <b>(−40% к времени деплоя)</b>.</p>
             <div class="tags"><span>FastAPI</span><span>PostgreSQL</span><span>SQLAlchemy</span><span>Alembic</span><span>Docker</span><span>Nginx</span></div>
@@ -310,8 +305,6 @@
       </h2>
       <div class="contact__links reveal">
         <a href="https://t.me/Bogdanzhd" target="_blank" rel="noopener">Telegram — @Bogdanzhd</a>
-        <a href="https://github.com/Bogdanzhf?tab=repositories" target="_blank" rel="noopener">GitHub — Bogdanzhf</a>
-        <a href="https://vk.ru/zhadanbogdan" target="_blank" rel="noopener">ВКонтакте — zhadanbogdan</a>
       </div>
     </section>
   </main>
@@ -330,6 +323,6 @@
       'bogdan.deploy(<span class="c-str">"docker compose up -d"</span>)',
     ];
   </script>
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>

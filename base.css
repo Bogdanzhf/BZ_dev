@@ -626,7 +626,7 @@ main { position: relative; }
 .commit__body { padding: 26px 28px; }
 .commit__body header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 20px; margin-bottom: 12px; }
 .commit__body h3 { font-size: 20px; font-weight: 600; }
-.commit__body time { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.commit__body time, .commit__place { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
 .commit__body p { margin: 0; color: #c4c2d2; font-size: 15.5px; }
 .commit__body p b { color: var(--accent); font-weight: 700; }
 
